@@ -10,7 +10,7 @@ app = Flask(__name__, template_folder='./portfolio/templates', static_folder='./
 
 @app.route('/')
 def index():
-    return render_template('layout.html')
+    return render_template('index.html')
 
 @app.route('/gnupg')
 def gnupg():
