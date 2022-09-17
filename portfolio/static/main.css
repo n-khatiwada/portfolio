@@ -1,0 +1,37 @@
+eqn {
+	position: relative;
+	height: 18px;
+	padding: 3px 5px;
+}
+
+.ticker {
+	position: relative;
+	left:25px;
+	height:30px; 
+	padding:3px 5px; 
+	list-style-type:none;
+	}
+	.ticker li { line-height:1.5; }
+	.ticker-active { height:1.5em; overflow:hidden; }
+	.ticker-active li { display:none; overflow:hidden; white-space:nowrap; }
+
+#module {
+	font-size: 1rem;
+	line-height: 1.5;
+}
+#module #collapseExample.collapse:not(.show) {
+	display: block;
+	height: 3rem;
+	overflow: hidden;
+}
+
+#module #collapseExample.collapsing {
+	height: 3rem;
+}
+#module a.collapsed:after {
+	content: '+ Show More';
+}
+
+#module a:not(.collapsed):after {
+	content: '- Show Less';
+}
