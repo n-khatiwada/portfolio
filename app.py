@@ -8,11 +8,11 @@ import sqlite3
 
 app = Flask(__name__, template_folder='./portfolio/templates', static_folder='./portfolio/static')
 
-@app.route('/index.html')
+@app.route('/')
 def index():
     return render_template('index.html')
 
-@app.route('/gnupg.html')
+@app.route('/gnupg')
 def gnupg():
     return render_template('gnupg.html')
 
