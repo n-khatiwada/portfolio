@@ -135,6 +135,11 @@
     display: inline;
 }
 
+.subsection-notbold {
+    padding-left: 65px;
+    display: inline;
+}
+
 .links {
     font-weight: bold;
     font-size: 25px;
